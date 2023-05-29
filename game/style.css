@@ -1,0 +1,21 @@
+body{
+    background-image: url("/img/background.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+.floor{
+    width: 1500px;
+    height: 500px;
+    background-color: rgb(53, 52, 52);
+    position: absolute;
+    top:365px;
+}
+
+#board{
+    border:1px solid black;
+}

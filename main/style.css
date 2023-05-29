@@ -1,0 +1,70 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-image: url("/img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gif{
+    height: 100px;
+    width:80px;
+}
+
+#nome{
+    width: 400px;
+}
+
+
+.titulo{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+      
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 2%;
+    width: 30%;
+}
+
+#trofeu{
+    position: absolute;
+    left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    padding: 10px 40px 10px 40px;
+    background-color: #FFCC80;
+    margin-top: 30%;
+    font-size: 40px;
+    border: 1px solid black;
+    color:#795548;
+    width: 80%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#ffd79b;
+    border: 1px solid red;
+}
